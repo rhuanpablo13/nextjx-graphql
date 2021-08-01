@@ -1,9 +1,9 @@
 {
     "Registro": {
-        "id": { "int" : {}},
+        "id": { "int" : {"min": 1, "max": 1000000}},
         "title": { "string" : {}},
         "description": { "string" : {}},
-        "amount": { "int" : {}},
+        "amount": { "int" : {"min": 0, "max": 1000000}},
         "date": { "string" : {}}
     }
 }
