@@ -1,9 +1,9 @@
 {
     "Registro": {
-        "id": { "number" : {}},
+        "id": { "int" : {}},
         "title": { "string" : {}},
         "description": { "string" : {}},
-        "amount": { "number" : {}},
+        "amount": { "int" : {}},
         "date": { "string" : {}}
     }
 }
